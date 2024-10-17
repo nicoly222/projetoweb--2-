@@ -1,0 +1,157 @@
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+#tituloq{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-family: sans-serif, normal;
+}
+
+
+#container{
+    display: flex;        
+    justify-content: space-between; 
+    width: 100%; 
+    padding-bottom: 6rem;   
+   
+
+}
+
+.quadrado{
+    background-color: #eeeeee;
+    width: 425px;
+    height: 250px;
+    border-radius: 8px;
+    margin: 1px;
+    
+    
+
+    
+   }
+   #caminhao{
+    width: 60px;
+    height: 65px;
+    padding-left: 11rem;
+    padding-top: 2rem;
+ 
+   }
+
+  
+
+
+   #free{
+    width: 60px;
+    height: 65px;
+    padding-left: 11rem;
+    padding-top: 2rem;
+   }
+
+   
+   #quality{
+    width: 60px;
+    height: 65px;
+    padding-left: 11rem;
+    padding-top: 2rem;
+
+   }
+
+   .textoquadrado{
+       text-align: center;
+       font-family: sans-serif, normal;
+    
+     
+   }
+
+   
+   
+   
+   #roxo{
+       background-color: #6a29a6;
+       display: flex;
+       border-radius: 15px;
+     
+       
+       
+
+   }
+
+  #caixa_presente{
+    width: 30%;           
+    height: auto;   
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+  }
+
+   .texto{
+    color: #ffffff;
+    padding-top: 100px;
+    padding-left: 4rem;
+    font-size: 25px;
+    font-family: sans-serif, normal;
+
+}
+
+#botao1{
+    background-color:#ffffff; 
+    border: none;
+    padding: 15px 34px;
+    margin: 5px;
+    width: 10rem;
+
+}
+    
+#botao2{
+    background-color:#9343de; 
+    color: #ffffff;
+    border: none;
+    padding: 15px 32px;
+    margin: 5px;
+    width: 10rem ;
+}
+
+#botoes{
+    display: flex;
+  
+}
+
+@media (max-width: 780px) {
+    #container {
+        flex-direction: column; 
+        align-items: center; 
+        
+
+    }
+
+    .quadrado {
+        margin: 20px 0; 
+    }
+
+    #caixa_presente {
+        order: -1;
+        margin: 0.5rem 0; 
+        padding: 0.5rem; 
+        width: 90%; 
+        max-width: 400px; 
+        margin-left: 0; 
+        margin-right: auto;
+    }
+        
+
+    #roxo {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 10px;
+    }
+
+    #caminhao, #free, #quality {
+        margin: 0 auto 1rem;
+    }
+
+    #botoes {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
