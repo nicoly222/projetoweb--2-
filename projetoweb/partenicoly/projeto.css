@@ -144,6 +144,7 @@ body{
         flex-direction: column; 
         align-items: flex-start; 
         padding: 10px;
+        padding-right: 1rem;
     }
 
     #caminhao, #free, #quality {
